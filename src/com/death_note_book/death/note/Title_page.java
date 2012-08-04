@@ -2,11 +2,10 @@ package com.death_note_book.death.note;
 
 import android.os.Bundle;
 import android.app.Activity;
+import android.content.Intent;
 import android.graphics.Typeface;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.TextView;
-import android.support.v4.app.NavUtils;
 
 public class Title_page extends Activity {
 
@@ -26,8 +25,14 @@ public class Title_page extends Activity {
         getMenuInflater().inflate(R.menu.activity_main, menu);
         return true;
     }
-
     
-   
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item){
+        switch(item.getItemId()){
+        case(R.id.menu_settings):
+        	startActivity(new Intent(this, Rules_page.class));
+        }
+        return true;
+    }
     
 }

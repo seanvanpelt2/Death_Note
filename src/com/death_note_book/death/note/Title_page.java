@@ -17,8 +17,8 @@ public class Title_page extends Activity {
         Typeface font1 = Typeface.createFromAsset(getAssets(), "Death_Note_Font.ttf");
         Typeface font2 = Typeface.createFromAsset(getAssets(), "Ryuk_Font.ttf");
         Typeface font3 = Typeface.createFromAsset(getAssets(), "Death_Note_Rules.ttf"); 
-        TextView view = (TextView) findViewById(R.id.title); 
-        view.setTypeface(font1); 
+        //TextView view = (TextView) findViewById(R.id.title); 
+        //view.setTypeface(font3); 
     }
 
     @Override

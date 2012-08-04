@@ -3,16 +3,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#000000" >
-
-    <TextView
-        android:id="@+id/title"
+
+    <ImageView
+        android:id="@+id/imageView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="66dp"
-        android:text="Death Note"
-        android:textColor="#ffffff"
-        android:textSize="50dp" />
+        android:src="@drawable/title" />
 
 </RelativeLayout>

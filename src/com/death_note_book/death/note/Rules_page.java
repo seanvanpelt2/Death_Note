@@ -7,6 +7,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
 import android.support.v4.app.NavUtils;
+import android.text.Html;
 
 public class Rules_page extends Activity {
 
@@ -17,8 +18,11 @@ public class Rules_page extends Activity {
         Typeface font1 = Typeface.createFromAsset(getAssets(), "Death_Note_Font.ttf"); 
         Typeface font2 = Typeface.createFromAsset(getAssets(), "Ryuk_Font.ttf");
         Typeface font3 = Typeface.createFromAsset(getAssets(), "Death_Note_Rules.ttf"); 
-        //TextView view = (TextView) findViewById(R.id.rules); 
-        //view.setTypeface(font2); 
+        TextView view = (TextView) findViewById(R.id.rules); 
+        view.setTypeface(font3); 
+        
+        TextView foo = (TextView)findViewById(R.id.rules);
+        foo.setText(Html.fromHtml(getString(R.string.rules_list)));
     }
 
     @Override

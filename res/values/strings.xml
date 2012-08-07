@@ -3,6 +3,29 @@
     <string name="menu_settings">Settings</string>
     <string name="title_activity_main">Death Note</string>
     <string name="app_name">Death Note</string>
-    
+    <string name="rules_list"><![CDATA[
+        <center>I</center><br>
+		- The human whose name is written in this note shall die.<p>
+
+		- This note will not take effect unless the writer has the person’s face in their mind when writing his/her name. Therefore, people sharing the same name will not be affected.<p>
+
+		- If the cause of death is written within the next 40 seconds of writing the person’s name, it will happen.<p>
+
+		- If the cause of death is not specified, the person will simply die of a heart attack.<p>
+
+		- After writing the cause of death, details of the death should be written in the next 6 minutes and 40 seconds.<p>
+
+		<center>II</center><br>
+		- The notebook shall become the property of the human world, once it touches the ground of (arrives in) the human world.<p>
+
+		- The owner of the note can recognize the image and voice of the original owner, i.e. a God of death/Shinigami.<p>
+
+		- The human who uses the notebook can neither go to Heaven nor Hell.<p>
+		<br>
+		<center>III</center><br>
+		- If the time of death is written within 40 seconds after writing the cause of death as a heart attack, the time of death can be manipulated, and the time can go into effect within 40 seconds after writing the name.<p>
+
+		- The human who touches the Death Note can recognize the image and voice of its original owner, a Shinigami, even if the human is not the owner of the note.<p>
+		]]></string>
 
 </resources>
